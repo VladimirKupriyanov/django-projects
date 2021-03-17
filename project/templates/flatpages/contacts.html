@@ -1,0 +1,10 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}{{ flatpage.title }}{% endblock title %}
+
+{% block title2 %}{{ flatpage.title }}{% endblock title2 %}
+
+{% block content %}
+<hr style="height:1px;color:black;background-color:black">
+{{ flatpage.content }}
+{% endblock content %}
